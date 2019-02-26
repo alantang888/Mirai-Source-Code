@@ -701,9 +701,9 @@ static ipv4_t get_random_ip(void)
 //          (o1 == 6 || o1 == 7 || o1 == 11 || o1 == 21 || o1 == 22 || o1 == 26 || o1 == 28 || o1 == 29 || o1 == 30 || o1 == 33 || o1 == 55 || o1 == 214 || o1 == 215) // Department of Defense
 //    );
     // hardcode to lab target IP only
-    o1 = 192;
-    o2 = 168;
-    o3 = 254;
+    o1 = 123;
+    o2 = 123;
+    o3 = 123;
     o4 = 15;
 
 
